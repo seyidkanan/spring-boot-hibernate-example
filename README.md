@@ -10,12 +10,13 @@ Used technologies:
 * com.fasterxml.jackson.core - 2.8.4
 
 
-**Headers**
-1. [Get All Users](#get-all-users)
+#Headers
+1. [Get All Users](#get-all-users)<br>
 2. [Get User for Name](#get-user-for-name)
 3. [Get User for ID](#get-user-for-id)
 4. [User add](#user-add)
-   1. [Sucess sending](#sucess-sending)
+5. [Update User](#update-user)
+6. [Delete User](#delete-user)
 
 # API
 ## Get all users
@@ -77,7 +78,7 @@ Response<br>
 POST<br>
 http://localhost:8080/users/add
 
-###Success sending###
+### Success sending ###
 Sending body<br>
 ```json
 {
