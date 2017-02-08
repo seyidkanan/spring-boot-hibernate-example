@@ -120,7 +120,7 @@ public class UserController {
                     service.delete(id);
                     result = Utility.prepareSuccessResponse4Json("Data deleted");
                 } catch (EmptyResultDataAccessException e) {
-                    result = Utility.prepareErrorResponse4Json("This id is exist");
+                    result = Utility.prepareErrorResponse4Json("This id cannot find");
                 }
             } else {
                 result = Utility.prepareErrorResponse4Json("id field incorrect");
