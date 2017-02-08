@@ -10,7 +10,8 @@ Used technologies:
 * com.fasterxml.jackson.core - 2.8.4
 
 
-[users](#get-all-users)
+1. [Get All Users](#get-all-users)
+2. [GetUser for Name](#get-user-for-name)
 
 # API
 ## Get all users
@@ -39,7 +40,7 @@ Response<br>
 ]
 ```
 
-## Get User for name
+## Get User for Name
 
 GET<br>
 http://localhost:8080/users?name=kanan
